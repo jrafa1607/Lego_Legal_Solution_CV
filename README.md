@@ -25,7 +25,7 @@ The system is designed to automate the inspection of components on the productio
 <img src="https://github.com/jrafa1607/Computational-Vision-In-Python/blob/main/Lego%20Legal%20Solution/-%20Anexos/table1.jpeg">
 
 ### Sample Output
-<img src="https://github.com/jrafa1607/Computational-Vision-In-Python/blob/main/Lego%20Legal%20Solution/-%20Anexos/res01.jpeg">
+<img src="https://github.com/jrafa1607/Lego_Legal_Solution_CV/blob/main/Attachments/res01.jpeg">
 
 ---
 
