@@ -1,18 +1,35 @@
-# Lego Legal
-A empresa <b> Lego Legal</b>, fabricante de peças para lego, possui uma linha de produção semiautomatizada para embalamento dos seus produtos que funciona da seguinte maneira: 
-- Após o processo de fabricação, as peças são colocadas em uma esteira automatizada
-- Pouco mais adiante, no setor de embalagem, um funcionário as retira e as coloca em caixas de acordo com suas especificações, descritas na Tabela 1 a seguir.
+# 🧱 Lego Legal - A CV Inspection System
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
+[![Python](https://img.shields.io/badge/Python-3.x-blue?logo=python)](https://www.python.org/)
+[![OpenCV](https://img.shields.io/badge/OpenCV-Computer_Vision-green?logo=opencv)](https://opencv.org/)
+
+## 📝 Project Description
+**Lego Legal**, a manufacturer of construction block components, aims to optimize its semi-automated packaging process. Currently, human errors caused by visual fatigue—particularly toward the end of shifts—lead to components being placed in incorrect boxes. This project proposes an **Automated Visual Inspection System** using Computer Vision to ensure final product quality and assist in the automated sorting process.
+
+---
+
+## 🎯 Objectives
+The system is designed to automate the inspection of components on the production line, adhering to the following requirements:
+
+- [x] **Product Identification:** Recognize specific types of pieces based on pre-defined specifications.
+- [x] **Image Processing:** RGB image capture and analysis for object detection and classification.
+- [x] **Sorting Intelligence:** Provide the location, type, and designated packaging box for each identified component.
+- [x] **Integration Readiness:** Output data formatted for robotic arm integration to handle automated sorting.
+
+---
+
+## 📸 Project References
+
+### Component Specifications
 <img src="https://github.com/jrafa1607/Computational-Vision-In-Python/blob/main/Lego%20Legal%20Solution/-%20Anexos/table1.jpeg">
 
-Um problema recorrente no processo de embalagem é o número de peças colocadas erroneamente nas caixas. Após um levantamento da gerência de produção ficou constatado que tal problema é causado, na maioria das vezes, por falha humana devido à fadiga visual, principalmente nos finais de expediente. O gerente de produção acredita que um sistema de inspeção visual automática pode auxiliar no controle deste processo.
-
-A idéia é a seguinte: Após um funcionário da área de produção colocar um conjunto de produtos na esteira, uma imagem deste conjunto é adquirida por uma câmera e processada. 
-O resultado do processamento (um conjunto de dados) é então enviado para um mecanismo (braço robótico) de separação automática das peças. 
-É importante ressaltar que o funcionário que antes separava as peças manualmente deverá ser treinado para operar o novo sistema.
-
-## Objetivo
-
-Sua missão é desenvolver um sistema de inspeção visual para atender ao objetivo proposto. Para tanto, dada uma imagem colorida (RGB) do conjunto de peças, o sistema computacional deve gerar uma saída informando, para cada peça, a localização na imagem, o tipo e a caixa que ela dever ser colocada, conforme exemplo abaixo:
-
+### Sample Output
 <img src="https://github.com/jrafa1607/Computational-Vision-In-Python/blob/main/Lego%20Legal%20Solution/-%20Anexos/res01.jpeg">
+
+---
+
+## 🛠 Technologies Used
+* **Language:** Python
+* **Main Library:** OpenCV
+* **Concepts:** Segmentation, Contour Detection, Object Classification, Spatial Localization.
